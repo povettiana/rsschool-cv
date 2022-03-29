@@ -18,3 +18,14 @@ If we talk about my strengths, these are definitely sociability and ability to a
 + Figma
 + VS Code
 ***
+**Code example**
++ function even_or_odd(number) {
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
++ function areaLargestSquare(r) {
+  return (4 * r * r / 2);
+}
