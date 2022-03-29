@@ -29,3 +29,7 @@ If we talk about my strengths, these are definitely sociability and ability to a
 + function areaLargestSquare(r) {
   return (4 * r * r / 2);
 }
+**Work experience**
++ https://hardcore-aryabhata-189a95.netlify.app/
++ file:///E:/wild-life/index.html
+***
