@@ -36,4 +36,5 @@ If we talk about my strengths, these are definitely sociability and ability to a
 **English**
 + I've finished "Communicative course Summer" in Streamline Language school, Level:Intermediate (B1) in 2021
 + In 2020 I was awarded the qualification of an assistant-translator of medical literature by specialty "Pharmacy"
++ I have some speaking practice with native speakers
 ***
