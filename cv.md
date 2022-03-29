@@ -33,3 +33,7 @@ If we talk about my strengths, these are definitely sociability and ability to a
 + https://hardcore-aryabhata-189a95.netlify.app/
 + file:///E:/wild-life/index.html
 ***
+**English**
++ I've finished "Communicative course Summer" in Streamline Language school, Level:Intermediate (B1) in 2021
++ In 2020 I was awarded the qualification of an assistant-translator of medical literature by specialty "Pharmacy"
+***
