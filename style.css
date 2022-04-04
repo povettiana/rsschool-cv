@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    user-select: none;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    min-height: 60px;
+    top: 0;
+    width: 60%;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    background:  #d90429;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list-mobile {
+    padding: 0;
+    margin: 0;
+    display: none;
+    list-style-type: none;
+    overflow: hidden;
+    -webkit-transition: max-height .4s ease-in-out;
+    -moz-transition: max-height .4s ease-in-out;
+    -ms-transition: max-height .4s ease-in-out;
+    -o-transition: max-height .4s ease-in-out;
+    transition: max-height .4s ease-in-out;
+    max-height: 0;
+}
+
+.nav-list-mobile > .nav-list-item {
+    margin: 0 0 0 6px;
+}
+
+.nav-active {
+    max-height: 500px;
+}
+
+.nav-burger {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-list-item {
+    margin-left: 50px;
+}
+
+.nav-list-item > a {
+    font-family: Arial, serif;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    text-underline: none;
+}
+
+main {
+    padding-top: 60px;
+}
+
+.content-width {
+    width: 60%;
+    margin: auto;
+}
+
+.home_grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.home_grid_left {
+    flex-direction: column;
+    background: #F1F7ED;
+    display: flex;
+}
+
+.home_grid_right {
+    flex-direction: column;
+    display: flex;
+    background: #FAF0CA;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color:brown;
+    margin-left: 40px;
+    font-size: 23px;
+}
+
+.photo > img {
+    width: 100%;
+}
+
+.year {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    color: brown;
+    font-size: 23px;
+}
+
+.skills {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    color: #2b2d42;
+    font-size: 23px;
+}
+
+.list2 {
+    color: #2b2d42;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list2 > ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-left: 30px;
+    margin-block-start: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2b2d42;
+}
+
+.list > ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-left: 10px;
+}
+
+.list {
+    color: brown;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0%;
+}
+
+.about_me {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-left: 40px;
+    color: brown;
+}
+
+.summary {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+.english {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    color: brown;
+}
+
+.list_lang {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    list-style-type: none;
+}
+
+.list_lang > ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-left: 10px;
+}
+
+.code {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    color: #2b2d42;
+}
+
+.example {
+    color: #2b2d42;
+    font-size: 17px;
+}
+
+.experience {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    margin-left: 25px;
+}
+
+.process {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-inline-start: 0;
+    margin-left: 30px;
+    margin-block-start: 0;
+}
+
+iframe {
+    width: 100%;
+    max-width: 768px;
+     height: 380px;
+}
+
+@media (max-width: 768px) {
+.content-width {
+    margin: 0;
+    width: 100%;
+}
+
+.video iframe {
+    max-width: 100%;
+    height: 300px;
+}
+nav {
+    width: 100%;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home_grid {
+    grid-template-columns: 1fr;
+}
+
+.nav-list {
+    display: none;
+}
+
+.nav-burger {
+    display: block;
+    margin-top: 5px;
+}
+
+.nav-list-mobile {
+    display: block;i
+}
